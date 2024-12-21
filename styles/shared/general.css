@@ -2,8 +2,8 @@
 *,
 *::after,
 *::before {
-  outline: 1px solid red;
-  background-color: rgba(0, 255, 0, 0.113);
+  /* outline: 1px solid red; */
+  /* background-color: rgba(0, 255, 0, 0.113); */
   box-sizing: border-box;
 }
 * {
@@ -22,4 +22,8 @@ input {
   min-height: 100vh;
   display: grid;
   place-content: center;
+  background-image: url("/Images/backdrop.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
 }

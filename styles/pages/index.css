@@ -1,7 +1,9 @@
 .main,
 .main__section {
   width: 100%;
-  background-color: aliceblue;
+}
+.section__h2 {
+  text-align: center;
 }
 .form__section {
   padding: 2rem;
@@ -11,4 +13,36 @@
   row-gap: 10px;
   margin: 10px 0;
   border-radius: 10px;
+  background-color: hsla(0, 100%, 100%, 0.4);
+  backdrop-filter: blur(2px);
+}
+.option-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  column-gap: 10px;
+}
+.form__input-label {
+  width: 100%;
+  padding: 5px;
+}
+.form__input-label:hover {
+  background-color: aliceblue;
+}
+.form__button-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+}
+.form__button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+.form__button:hover {
+  background-color: rebeccapurple;
 }
