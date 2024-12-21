@@ -1,0 +1,14 @@
+.main,
+.main__section {
+  width: 100%;
+  background-color: aliceblue;
+}
+.form__section {
+  padding: 2rem;
+  width: 500px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
